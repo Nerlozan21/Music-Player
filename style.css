@@ -6,8 +6,8 @@
 }
 :root{
   --pink: #ff74a4;
-  --violet: #192231;
-  --tan: #c0b283;
+  --violet: #0F3443;
+  --tan: #34E89E;
   --lightblack: #515C6F;
   --white: #ffffff;
   --darkwhite: #cecaca;
@@ -15,8 +15,8 @@
   --lightbshadow: rgba(0,0,0,0.15);
   --green: #76ca71;
   --yellow: #f09819;
-  --blue:#4cb8c4;
-  --green2:#3cd3ad;
+  --blue:#F55555;
+  --green2:#FCCF31;
 }
 body{
   display: flex;
@@ -31,14 +31,14 @@ body{
   overflow: hidden;
   position: relative;
   /* border-radius: 15px; */
-  background: linear-gradient(135deg, rgba(225,225,225,0.1), rgba(225,225,225,0));
+  /* background: linear-gradient(135deg, rgba(225,225,225,0.1), rgba(225,225,225,0)); */
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  box-shadow: 0 8px 32px 0 rgba(0,0,0, 0.37);
-  border: 1px solid rgba(0,0,0, 0.18);
+  /* box-shadow: 0 8px 32px 0 rgba(0,0,0, 0.37);
+  border: 1px solid rgba(0,0,0, 0.18); */
   border-radius: 32px;
-  /* background: linear-gradient(var(--blue) 0%, var(--green2) 100%); */
-  /* box-shadow: 0px 6px 15px var(--lightbshadow); */
+  background: linear-gradient(var(--blue) 0%, var(--green2) 100%);
+  box-shadow: 0px 6px 15px var(--lightbshadow);
 }
 .wrapper i{
   cursor: pointer;
